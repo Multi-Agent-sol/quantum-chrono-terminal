@@ -1,6 +1,6 @@
 Quantum Chrono Terminal
 
-[QuantumChronoTerminal](https://github.com/Multi-Agent-sol/quantum-chrono-terminal/blob/main/Screenshot%202024-12-24%20150523.png)
+![QuantumChronoTerminal](https://github.com/Multi-Agent-sol/quantum-chrono-terminal/blob/main/Screenshot%202024-12-24%20150523.png)
 
 Embark on a Journey Across Timelines and Realities!
 
