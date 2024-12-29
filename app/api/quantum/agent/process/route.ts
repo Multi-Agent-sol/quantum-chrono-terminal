@@ -29,11 +29,11 @@ export async function POST(req: Request) {
       .map((evt: any) => `${evt.source}: ${evt.data}`)
       .join('\n')
 
-    const response = await fetch('https://api.mistral.ai/v1/chat/completions', {
+    const response = await fetch('https://api.keyprovder.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.MISTRAL_API_KEY}`
+        'Authorization': `Bearer ${process.env.API_KEY}`
       },
       body: JSON.stringify({
         model: 'mistral-medium',
