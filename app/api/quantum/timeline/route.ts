@@ -5,11 +5,11 @@ export async function POST(req: Request) {
     const { prompt } = await req.json()
 
     // Create a timeline using Mistral AI
-    const response = await fetch('https://api.mistral.ai/v1/chat/completions', {
+    const response = await fetch('https://api.keyprovider.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.MISTRAL_API_KEY}`
+        'Authorization': `Bearer ${process.env.API_KEY}`
       },
       body: JSON.stringify({
         model: 'mistral-medium',
